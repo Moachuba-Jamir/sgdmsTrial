@@ -1,5 +1,5 @@
 // import bins from './public/bins.json' with {type: json}
-const bins = require("./public/bins.json");
+const bins = require("../public/bins.json");
 const express = require("express");
 const http = require("http");
 const socketIo = require("socket.io");
