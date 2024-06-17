@@ -15,7 +15,7 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 // serving static files
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "../public")));
 
 // handling connection events
 io.on("connection", (socket) => {
@@ -70,12 +70,12 @@ io.on("connection", (socket) => {
 
 // setting basic routes
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public/index.html"));
+  res.sendFile(path.join(__dirname, "../public/index.html"));
 });
 
-app.get("/bins", (req, res) => {
-  res.sendFile(path.join(__dirname, "public/bins.html"));
-});
+// app.get("/bins", (req, res) => {
+//   res.sendFile(path.join(__dirname, "public/bins.html"));
+// });
 
 //starting the server
 const PORT = 3000;
