@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.dupCards{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap;
+}
+.originalContainer{
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body {
+  background-color: rgb(24, 24, 24) !important;
+}
+.bar {
+  padding-top: 3%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardsContainer {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.btn {
+  border-radius: 50px !important;
+  -webkit-border-radius: 50px !important;
+  -moz-border-radius: 50px !important;
+  -ms-border-radius: 50px !important;
+  -o-border-radius: 50px !important;
+  width: 100px !important;
+}
+
+.cardBody {
+  margin-top: 7%;
+  height: 30%;
+  background-color: rgba(173, 173, 173, 0.205);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  display: flex;
+  align-items: center ;
+}
+.header {
+  margin-top: 2%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardHeader1 {
+  color: white;
+  padding-top: 5%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card {
+  /*border: 1px solid white ;
+  */height: 250px;
+  width: 250px !important;
+  background-color: rgb(5, 5, 5) !important;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-bottom: 3%;
+  margin-inline: 2%;
+}
+
+.progressContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress{
+    height: 25px !important;
+    width: 80% !important;  
+    margin-top: 5%;
+    padding: 0 !important;
+}
+
+img{
+    height: 20px;
+    width: 20px;
+}
+
+.details{
+    text-align: left;
+    padding: 5%;
+    font-size: .9rem;
+}
